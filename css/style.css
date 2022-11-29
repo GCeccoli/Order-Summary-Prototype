@@ -1,0 +1,129 @@
+/* --- Variables de couleurs --- */
+/* --- font family --- */
+/* --- General --- */
+body {
+  margin: 0;
+  padding: 0;
+  background: no-repeat top/100% url(../img/pattern-background-mobile.svg), hsl(225deg, 100%, 94%) no-repeat;
+}
+
+/* --- Container --- */
+.container {
+  width: 375px;
+  margin: 100px auto;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.heading {
+  width: 100%;
+}
+.heading__img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* --- Presentation --- */
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presentation__title {
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 700;
+  font-family: "Red Hat Display", sans-serif;
+}
+.presentation__text {
+  width: 70%;
+  line-height: 25px;
+  text-align: center;
+  color: hsl(224deg, 23%, 55%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* --- Plan --- */
+.plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 90px;
+  margin: auto;
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 20px;
+  position: relative;
+  margin-top: 5%;
+}
+.plan__icon {
+  margin: 0 5%;
+}
+.plan__choose {
+  font-family: "Red Hat Display";
+  line-height: 15px;
+  margin: 20px 0;
+  align-self: center;
+  position: absolute;
+  left: 27%;
+  top: -10%;
+}
+.plan__choose--title {
+  font-size: 16px;
+  color: hsl(223deg, 47%, 23%);
+  font-weight: 900;
+}
+.plan__choose--price {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224deg, 23%, 55%);
+  font-family: "Red Hat Display";
+}
+.plan__link {
+  font-family: "Red Hat Display";
+  margin-right: 20px;
+}
+
+/* --- Boutons --- */
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.btns__proceed {
+  width: 90%;
+  height: 60px;
+  background-color: hsl(245deg, 75%, 52%);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.btns__proceed:hover {
+  box-shadow: 7px 7px 6px lightgrey;
+}
+.btns__cancel {
+  border: none;
+  cursor: pointer;
+  color: hsl(224deg, 23%, 55%);
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  background: transparent;
+}
+
+footer {
+  text-align: center;
+  width: 80%;
+  margin: 50px auto 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
