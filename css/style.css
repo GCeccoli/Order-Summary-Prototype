@@ -129,6 +129,8 @@ footer {
   text-align: center;
   width: 80%;
   margin: 50px auto 20px;
+  font-family: "Red Hat Display";
+  color: hsl(224deg, 23%, 55%);
 }
 
 /*# sourceMappingURL=style.css.map */
