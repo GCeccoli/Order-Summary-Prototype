@@ -16,6 +16,9 @@ body {
     margin: 0;
     padding: 0;
     background: no-repeat top/100% url(../img/pattern-background-mobile.svg), $primarypale no-repeat;
+    @media screen and (max-width: 1920px) {
+        background: no-repeat top/100% url(../img/pattern-background-desktop.svg), $primarypale no-repeat;
+    }
 }
 
 /* --- Container --- */

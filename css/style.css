@@ -6,6 +6,11 @@ body {
   padding: 0;
   background: no-repeat top/100% url(../img/pattern-background-mobile.svg), hsl(225deg, 100%, 94%) no-repeat;
 }
+@media screen and (max-width: 1920px) {
+  body {
+    background: no-repeat top/100% url(../img/pattern-background-desktop.svg), hsl(225deg, 100%, 94%) no-repeat;
+  }
+}
 
 /* --- Container --- */
 .container {
